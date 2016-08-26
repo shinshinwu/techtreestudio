@@ -1,0 +1,10 @@
+variant/*
+video/*
+mail/*
+page-*.html
+home-*.html
+portfolio-*.html
+shop-*.html
+elements-*.html
+blog-*.html
+index.html
