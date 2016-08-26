@@ -3,8 +3,20 @@
   margin-right: 7px !important;
 }
 
+.gray-overlay.lightly-blurred .background-image-holder.fadeIn {
+  opacity: 0.7;
+}
+
+.min-height-70 {
+  min-height: 70px;
+}
+
 @media all and (max-width: 990px) {
   .contact-icon {
     display: none !important;
+  }
+  .min-height-70 {
+    min-height: 0;
+    height: auto;
   }
 }
