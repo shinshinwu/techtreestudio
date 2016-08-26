@@ -1,0 +1,10 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+.contact-icon {
+  margin-right: 7px !important;
+}
+
+@media all and (max-width: 990px) {
+  .contact-icon {
+    display: none !important;
+  }
+}
