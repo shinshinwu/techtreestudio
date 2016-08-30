@@ -20,3 +20,11 @@
     height: auto;
   }
 }
+
+.pl0 {
+  padding-left: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
