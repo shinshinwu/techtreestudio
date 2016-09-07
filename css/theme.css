@@ -1402,7 +1402,6 @@ nav .cart-overview a {
   }
   .module.widget-handle {
     border-left: none;
-    border-top: 1px solid #ccc;
     line-height: 40px;
     min-height: 40px;
   }
@@ -2654,6 +2653,7 @@ button[type="submit"] .form-loading {
   margin-bottom: 16px;
   color: #47b475;
 }
+
 .feature-2 i {
   display: block;
   width: 80px;
