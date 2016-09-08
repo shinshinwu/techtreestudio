@@ -1,6 +1,9 @@
 variant/*
 video/*
 mail/*
+css/unused
+fonts/unused
+img/unused
 page-*.html
 home-*.html
 portfolio-*.html
