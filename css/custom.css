@@ -28,3 +28,17 @@
 .pr0 {
   padding-right: 0;
 }
+
+.feature-1.boxed {
+  min-height: 330px;
+}
+
+@media all and (max-width: 767px) {
+  .feature-1.boxed {
+    min-height: 0px;
+  }
+
+  .page-title-4 {
+    height: 100px;
+  }
+}
