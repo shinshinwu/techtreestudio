@@ -42,3 +42,13 @@
     height: 100px;
   }
 }
+
+.process .icon-tabs .tabs li{
+  width: 16.2%;
+}
+
+@media all and (max-width: 767px) {
+  .process .icon-tabs .tabs li{
+    width: 48%;
+  }
+}
