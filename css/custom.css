@@ -56,3 +56,26 @@
 .module-group.right {
   border-top: 1px solid #ccc;
 }
+
+
+/*.tt-g-background{
+  background-color: #47b475;
+}*/
+.tt-g-txt{
+  color: #47b475;
+}
+/*.tt-g-background{
+  background-color: #47b475;
+}
+.tt-g-border-color{
+  border-color: #47b475;
+}*/
+@media (max-width: 767px){
+.p-h-10percent{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.txt-c-xs{
+  text-align: center;
+}
+}

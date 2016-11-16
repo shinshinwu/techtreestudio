@@ -11,6 +11,7 @@ var mr_firstSectionHeight,
 $(document).ready(function() {
     "use strict";
 
+    $('[data-toggle="tooltip"]').tooltip(); 
     // Smooth scroll to inner links
 
     $('.inner-link').each(function(){
