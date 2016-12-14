@@ -31,29 +31,46 @@
 <div class="module left">
 <ul class="menu">
 <li>
-<a href="#">
+<a class="inner-link" href="#about">
 About
 </a>
 </li>
 <li>
 <a href="#">
-Benefits
+System
 </a>
 </li>
 <li>
 <a href="#">
-
+Strategy
+</a>
+</li>
+<li>
+<a href="#">
+Services
+</a>
+</li>
+<li>
+<a href="#">
+Pricing
 </a>
 </li>
 </ul>
 </div>
 
 <div class="module widget-handle language left">
-<ul class="menu">
-<li class="">
-<a href="#">ENG</a>
-</li>
-</ul>
+            <ul class="menu">
+              <li class="contact-icon">
+                <a href="#contact-form">
+                  <i class="ti-email"></i>
+                </a>
+              </li>
+              <li>
+                <a href="index.html#contact-form">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
 </div>
 </div>
 <!--end of module group-->
@@ -86,9 +103,9 @@ Benefits
 
 
 
-<section>
+<section id="about">
 <div class="container text-center">
-<div class="row">
+<div class="row" >
 <div class="col-sm-12">
 <h6 class="uppercase text-center">About Modern Assets</h6>
 <hr class="mb72 mb-xs-24">
@@ -376,7 +393,7 @@ The modern assets program includes all kinds of good stuff. Primarily, it gives 
 </ul>
 </div>
 </div>
-<hr class="mt32 mb64">
+<!-- <hr class="mt32 mb64"> -->
 <!-- <a class="btn-lg btn mt32" href="#">Explore Foundry</a> -->
 
 </div>
@@ -387,10 +404,98 @@ The modern assets program includes all kinds of good stuff. Primarily, it gives 
 
 
 
-<div class="container ">
-<div class="row v-align-children">
-<div class="col-sm-5">
-<h3 class="text-center-xs">Contact Us</h3>
+<section class="container ">
+<div class="row">
+<div class="col-sm-12">
+<h6 class="uppercase text-center"><span class="bold">Modern</span><span class="thin">Assets</span> Pricing</h6>
+<hr class="mb72 mb-xs-24">
+</div>
+</div>
+<!--end of row-->
+<div class="row">
+<div class="col-sm-4 ">
+<div class="pricing-table pt-2 text-center">
+<h5 class="uppercase">Starter</h5>
+<span class="price">$12</span>
+<p class="lead">Per Month</p>
+<a class="btn btn-filled btn-lg" href="#">Get Started</a>
+<ul>
+<li>
+<strong>Unlimited</strong> access to content
+</li>
+<li>
+<strong>Fully Secure</strong> online backup
+</li>
+<li>
+<strong>One Year</strong> round the clock support
+</li>
+<li>
+<strong>FREE</strong> complimentary lanyard
+</li>
+</ul>
+</div>
+<!--end of pricing table-->
+</div>
+<div class="col-sm-4">
+<div class="pricing-table pt-2 emphasis  text-center">
+<h5 class="uppercase">Pro</h5>
+<span class="price">$12</span>
+<p class="lead">Per Month</p>
+<a class="btn btn-filled btn-lg" href="#">Get Started</a>
+<ul>
+<li>
+<strong>Unlimited</strong> access to content
+</li>
+<li>
+<strong>Fully Secure</strong> online backup
+</li>
+<li>
+<strong>One Year</strong> round the clock support
+</li>
+<li>
+<strong>FREE</strong> complimentary lanyard
+</li>
+</ul>
+</div>
+<!--end of pricing table-->
+</div>
+<div class="col-sm-4 ">
+<div class="pricing-table pt-2 text-center">
+<h5 class="uppercase">A La Carte</h5>
+<h4 class="uppercase">Contact for Pricing</h4>
+<ul>
+<li>
+<strong>Design</strong>
+</li>
+<li>
+<strong>Development</strong>
+</li>
+<li>
+<strong>Strategy</strong>
+</li>
+<li>
+<strong>Consulting</strong>
+</li>
+</ul>
+<a class="btn btn-filled btn-lg" href="#">Contact Us</a>
+</div>
+<!--end of pricing table-->
+</div>
+</div>
+
+
+<div class="row mt64">
+<div class="col-xs-12">
+    
+<h6 class="uppercase text-center"><span class="bold">Contact Us</span></h6>
+<hr class="mb72 mb-xs-24">
+</div>
+
+</div>
+
+<div class="row ">
+<div class="col-sm-4 col-sm-offset-1 ">
+<h4 class="uppercase mb16">Text Inputs</h4>
 <p class="lead mb40 text-center-xs">
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 </p>
@@ -403,51 +508,55 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 <h6 class="uppercase mb0 inline-block p32">Foundry Club</h6>
 </div>
 </div>
-<div class="col-md-4 col-sm-6">
-
-
-
-
-<div class="pricing-table pt-1 text-center emphasis">
-
+<div class="col-sm-6">
 
 <form class="mb24">
 <!--end select-->
-<h4 class="uppercase mb16">Text Inputs</h4>
-<p class="lead mb64">
-Inputs will span their entire parent by default.
-</p>
-<input type="text" placeholder="Input with Placeholder" />
-<input type="submit" value="Submit Button" />
-</form>
+
+<div class="row">
+    <div class="col-sm-6">
+        
+<input type="text" name="name" class="col-sm-6 validate-required" placeholder="Your Name*" />
+    </div>
+    <div class="col-sm-6">
+<input type="text" name="phonenumber" class="  validate-required" placeholder="Your Phone Number*" />
+        
+    </div>
 </div>
+<input type="text" name="email" class="col-sm-6 validate-required validate-email" placeholder="Your Email Address*" />
+<textarea name="message" placeholder="How can we help you ?" rows="2"></textarea>
+<input type="submit" value="Contact Us" />
+</form>
+
 <!--end of pricing table-->
 </div>
 </div>
+
+
 <!--end of row-->
-</div>
+</section>
 <!--end of container-->
 <hr class="mt72 mb72 mb-xs-24"> 
 
 
 <!-- <footer class="footer-1 bg-dark"> -->
-<div class="container">
+<div class="container v-align-children">
 <div class="row">
 <div class="col-lg-2 col-md-3 col-xs-3">
-<img alt="Logo" class="logo" src="img/accountant/logo-light.png" />
+<img alt="Logo" class="logo mt16 mt-xs-0" src="img/accountant/logo-light.png" />
 </div>
 <div class="col-xs-6">
 <div class="widget">
 <h6 class="title">Powered by TechTREEStudio</h6>
 <hr>
-
+<span class="sub hidden-xs">&copy; Copyright 2016 - MODERNASSETS is an exclusive TechTREEStudio offering</span>
 </div>
 </div>
 </div>
 <!--end of row-->
-<div class="row">
-<div class="col-sm-6">
-<span class="sub">&copy; Copyright 2016 - MODERNASSETS is an exclusive TechTREEStudio offering</span>
+<div class="row visible-xs">
+<div class="col-xs-12">
+<span class="sub ">&copy; Copyright 2016 - MODERNASSETS is an exclusive TechTREEStudio offering</span>
 </div>
 </div>
 </div>
