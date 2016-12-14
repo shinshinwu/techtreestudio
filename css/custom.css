@@ -162,3 +162,19 @@ ul.lead li{
 .b-t{
   color: rgba(0,0,0,1);
 }
+
+
+
+a.light-link:hover,
+.light-link:active{
+color: white !important;
+}
+.dark-link{
+
+}
+
+
+a.light-active:active,
+a.light-active:focus{
+  color: white !important;
+}
