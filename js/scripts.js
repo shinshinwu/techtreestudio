@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 	if($('.inner-link').length){
 		$('.inner-link').smoothScroll({
-			offset: -55,
+			offset: 0,
 			speed: 800
 		});
     }
@@ -1306,6 +1306,8 @@ function prepareSignup(iFrame){
 
 
 }
+
+
 
 
 
