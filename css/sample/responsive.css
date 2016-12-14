@@ -1,0 +1,681 @@
+
+.right.showres{
+    display: none;
+}
+#btn-nav{
+    display: none;
+}
+@media (max-width:1620px){
+    .accounting-2 .onslider-form{
+        position: static;
+    }
+    .accounting-2 #slider-section .form-request{
+        float: none;
+        max-width: none;
+    }
+}
+@media (max-width:1450px){
+    #trust-section{
+        margin-top: 0;
+    }
+}
+@media (max-width:1380px){
+    .slide-desc-item{
+        margin-top: 20%;
+    }
+}
+@media (max-width:1200px){
+    .slide-desc-item{
+        margin-top: 10%;
+    }
+    .mover .nav-item li a{
+        font-size: 12px;
+    }
+}
+@media (max-width:1100px){
+    .mover .nav-item > li.active > a{
+        color: #fff;
+    }
+    .accounting-2 .nav-item{
+        color: rgba(222,208,175, .9);
+    }
+    .therapy .nav-item > li a {
+        background: #04776c;
+    }
+    .therapy .nav-item > li a {
+        color: #fff;
+    }
+    .nav-item > li{
+        border-bottom-color: rgba(255,255,255, .4);
+    }
+    .mover #header .col-md-6{
+        width: 100%;
+        float: none;
+    }
+    #testimonial-section .col-md-8, #testimonial-section .col-md-4{
+        width: 100%;
+        float: none;
+    }
+    .barber #testimonial-section .col-md-4{
+        width: 33.33333333%;
+        float: left;
+    }
+    .testimonial-wrap:after {
+        background: #333333;
+        content: '';
+        height: 100%;
+        width: 100%;
+        right: -100%;
+        top: 0;
+        position: absolute;
+    }
+    .accounting-2 .nav-item > li > a{
+        color: #fff;
+    }
+    .therapy .testimonial-to-right{
+        padding-right:0;
+    }
+    .corporate .testimonial-wrap:after, .mover .testimonial-wrap:after, .therapy .testimonial-wrap:after, .portdetail .testimonial-wrap:after {
+        display: none;
+    }
+    .interest{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .interest:after, .interest:before {
+        display: none
+    }
+    .form-request:after {
+        background: #9f8447;
+        content: '';
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        position: absolute;
+    }
+    .mover .form-request:after, .servdet .form-request:after{
+        display: none;
+    }
+    .architec .form-request:after {
+        display: none;
+    }
+    #testimonial-section .form-request {
+        padding-left: 0px;
+    }
+    #header .col-md-4, #header .col-md-8{
+        width: 100%;
+        float: none;
+    }
+    .logo{
+        display: block;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .logo a{
+        display: inline-block;
+    }
+    .client .client-item{
+        border:0;
+    }
+    .testimonial-wrap{
+        min-height: 0;
+    }
+    .right.showres, .clearfix.showres{
+        display: block;
+    }
+    .right.hideres{
+        display: none;
+    }
+    .right.mainavfull{
+        float: none;
+    }
+    .main-navigation{
+        position: relative;
+    }
+    #btn-nav{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+        position: relative;
+        z-index: 999;
+        top: 100%;
+        background: #9f8447; 
+        width: 100%;
+        margin:0;
+        padding:0;
+        left:0;
+    }
+    
+    .nav-item > li a{
+        padding: 15px 15px;
+        color: rgba(222,208,175, .9);
+    }
+    .nav-item li a:hover{
+        color: #fff;
+    }
+    .nav-item > li{
+        border-bottom: 1px solid;
+        border-bottom-color: rgba(255,255,255, .4);
+        float: none;
+        margin-right: 0;
+
+    }
+    .submenu {
+        position: relative;
+        top: 100%;
+        z-index: 999;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+        background: #8b6d2a;
+        display: block;
+    }
+    .attorney .submenu{
+        background: #f13465;
+    }
+    .mover .nav-item > li{
+        border-bottom-color: rgba(255,255,255, .4);
+    }
+    .mover .nav-item > li a{
+        color: #fff;
+    }
+    .mover .nav-item{
+        background: #2675e8;
+    }
+    .architec .submenu{
+        background: #fda21d;
+    }
+    .architec .submenu li a{
+        color: rgba(255,255,255, .6);
+    }
+    .attorney .nav-item{
+        background: #e72759;
+    }
+    .corporate .nav-item{
+        background: #a13003;
+    }
+    .attorney .nav-item > li a{
+        color: #fff;
+    }
+    .barber .nav-item > li a, .corporate .nav-item > li a{
+        color: #fff;
+    }
+    .trainer .nav-item{
+        background: #e71e0b;
+    }
+    .architec .nav-item{
+        background: #ff9800;
+        color: rgba(255,255,255, .7);
+    }
+    .architec .nav-item > li a, .trainer .nav-item > li a{
+        color: rgba(255,255,255, .7);
+    }
+    .submenu li a{
+        padding-left: 40px;
+        position: relative;
+    }
+    .submenu li a:before{
+        content: "\f061";
+        left: 0;
+        font-family: FontAwesome;
+        position: absolute;
+        margin-left: 15px;
+    }
+    .submenu li{
+        border-bottom-color: #705414;
+    }
+    .therapy .nav-item > li{
+        border-bottom-color: #20988d;
+    }
+
+    #main-navigation{
+        padding:10px 0;
+    }
+    #btn-nav{
+        font-size: 24px;
+        display: block;
+    }
+    #services-section .col-md-3{
+        width: 33.33333333%;
+    }
+    #services-section .col-md-9{
+        width: 66.66666667%;
+    }
+    #services-section .col-md-9 .col-md-4{
+        width: 50%;
+    }
+    .serv-dsc, .barber-serv-item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .testimonial-item-double .col-md-6{
+        width: 100%;
+        float: none;
+    }
+    .fixed-header{
+        position: static;
+    }
+
+}
+@media (max-width:1045px){
+    
+    .slide-desc .section-main-title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .slide-desc p {
+        font-size: 12px;
+    }
+    .services-item, .footer-inner .col-md-2{
+        width: 100%;
+        float: none;
+    }
+    .footer-inner .col-md-5{
+        width: 50%;
+    }
+    .ft-menu li a{
+        font-size: 12px;
+    }
+    .quote-section .text-center{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .slide-desc .section-main-title i {
+        font-size: 16px !important;
+    }
+    
+}
+@media (max-width:1000px){
+    
+    .home-blog-ct img{
+        max-width: none;
+        width: 100%;
+    }
+    .arc-serv-item{
+        width: 50%;
+    }
+    .arc-serv-item:nth-child(5), .arc-serv-item:nth-child(8){
+        display: none;
+    }
+    .barber-testi-doub img{
+        width: 100%;
+        max-width: none;
+        margin:15px 0;
+    }
+    .barber #about-section .col-md-4{
+        width: 100%;
+        background: rgba(255, 255, 255, .7);
+        padding: 30px;
+    }
+    .barber #about-section .excerpt p{
+        color: #333;
+    }
+    #tech-section .tab-content .usefull-link{
+        padding-left: 15px;
+        border-left: 0;
+        margin-top: 20px;
+    }
+    #tech-section .tab-content .col-md-5, #tech-section .tab-content .col-xs-6{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    #tech-section .tab-content .col-md-5 img{
+        max-width: none;
+        width: 100%;
+    }
+    #tech-section .tab-content .btn-bordered{
+        display: block;
+        text-align: center;
+    }
+    .work-slider-nav{
+        display: none;
+    }
+    #work-img img{
+        width: 100%;
+        height: auto;
+    }
+    .work-ct{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blogpage-image img{
+        width: 100%;
+        max-width: none;
+    }
+}
+@media (max-width:880px){
+    .corporate .about-inner a{
+        display: block;
+        margin:20px 0;
+    }
+}
+@media (max-width:850px){
+    .slide-desc-item {
+        margin-top: 5%;
+    }
+    .slide-desc p {
+        margin-bottom: 10px;
+    }
+    .slide-desc .btn-more, .slide-desc .btn-bordered{
+        padding:5px 15px;
+        font-size: 13px;
+    }
+    .home-slider-nav button{
+        padding:25px 10px;
+        font-size: 14px;
+        opacity: .7;
+    }
+    .home-slider-nav{
+        top:38%;
+    }
+    .slide-desc .section-main-title{
+        font-size: 18px;
+    }
+    .fact-item{
+        width: 50%;
+        margin-bottom: 90px;
+    }
+    .footer-inner .col-md-5 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .booking-inner .col-md-6{
+        width: 100%;
+        float: none;
+    }
+    .calendar img{
+        max-width: none;
+        width: 100%;
+    }
+    .client-inner > .row > .col-md-6{
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .int-img{
+        display: none;
+    }
+    .pricing-inner .col-md-6{
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width:780px){
+    .afterbout-item{
+        width: 100%;
+        float: none;
+    }
+    #gallery-slider .slick-slide img{
+        width: 100%;
+        max-width: none;
+    }
+    .contact-form .form-group .col-sm-6:first-child{
+        margin-bottom: 30px;
+    }
+    
+    
+}
+@media (max-width:740px){
+    .play-vid i{
+        width:45px;
+        height:45px;
+        line-height: 45px;font-size: 14px;
+    }
+}
+@media (max-width:690px){
+    .about-inner .col-md-6{
+        width: 100%;
+        float: none;
+    }
+    .about-featured-img{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .about-featured-img-item{
+        margin-bottom: 0;
+    }
+    .about-featured-img-item img{
+        width: 100%;
+        max-width: none;
+        margin-bottom: 15px;
+    }
+    .about-featured-img-item.push-down{
+        padding-top: 0;
+    }
+    .home-blog-inner .col-md-4{
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .corporate .home-blog-inner .col-md-4{
+        text-align: center;
+    }
+    .interest:before{
+        display: none;
+    }
+    .fact-item {
+        width: 100%;
+        float: none;
+    }
+    .interest-item{
+        padding-bottom: 30px;
+    }
+    #services-section .col-md-9 .col-md-4{
+        width: 100%;
+        float: none;
+    }
+    #about-slider img{
+        max-width: none;
+        width: 100%;
+        
+    }
+    .page-header-inner{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .notfound-ct h1{
+        font-size: 80px;
+    }
+    .slide-desc p{
+        color: #333;
+    }
+    .architec #slider-section .btn-bordered{
+        border-color:#ff9800;
+        color: #fff;
+    }
+    .offer-item{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    
+}
+@media (max-width:580px){
+    .single-blog-nav .left, .single-blog-nav .right{
+        float: none;
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .author-img, .author-desc{
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    #success-section .success-inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav-tabs > li{
+        width: 100%;
+    }
+    .open-item {
+        width: 100%;
+        float: none;
+        border: 0;
+    }
+}
+@media (max-width:550px){
+    .right.showres{
+        float: none;
+        text-align: center;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    .slide-desc .excerpt{
+        display: none;
+    }
+    .arc-serv-item{
+        width: 100%;
+        float: none;
+    }
+    .barber #testimonial-section .col-md-4{
+        width: 100%;
+        float: none;
+    }
+    .barber-testi img{
+        width: 100%;
+        max-width: none;
+    }
+    #services-section .col-md-9, #services-section .col-md-3{
+        width: 100%;
+        float: none;
+    }
+    #trust-section .trust-wrap .trust-item{
+        width: 25%;
+    }
+    .team-section .col-md-3{
+        width: 100%;
+        float:none;
+    }
+    .team-section .col-md-3 img{
+        max-width: none;
+        width: 100%;
+    }
+    .contact-detail .col-md-4{
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .offer-item{
+        width: 100%;
+    }
+    .offer-item img{
+        width: 100%;
+    }
+    #portfolio-section2 .col-xs-6{
+        width: 100%;
+    }
+    .servdet .btn-more, .servdet .btn-bordered{
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:450px){
+    .map-wrap.left {
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .ft-contact left{
+        float: none;
+    }
+    .open-item{
+        width: 100%;
+        float: none;
+        border:0;
+    }
+    .pricing-inner .col-md-3{
+        width: 100%;
+        float: none;
+        margin-bottom: 35px;
+    }
+    .notfound-ct ul li{
+        width: 100%;
+    }
+    .testimonial-to-right{
+        padding-right: 0;
+    }
+    .testimonial-nav, #testimonial-section .section-main-title{
+        float: none;
+    }
+    .about-inner{
+        padding-top: 70px;
+    }
+    .home-slider-nav{
+        top:25%;
+    }
+    #tech-section .nav-tabs > li > a >img{
+        display: inline-block;
+    }
+    #tech-section .nav-tabs > li{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media (max-width:390px){
+    .slide-desc .section-main-title{
+        font-size: 15px;
+    }
+    .top-section-right-phone h4{
+        font-size: 14px;
+    }
+    .home-slider-nav{
+        top: 22%;
+    }
+    .button-to-book{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: -15px;
+    }
+    .top-section-right-text{
+        font-size: 10px;
+    }
+    .step-item p{
+        font-size: 10px;
+    }
+    .testimonial-inner{
+        padding-bottom: 35px;
+    }
+    #afterbout-section .btn-more, #afterbout-section .btn-bordered{
+        margin:0 0 10px;
+        display: block;
+    }
+    .client-item{
+        width: 100%;
+        float: none;
+    }
+    #trust-section .trust-wrap .trust-item{
+        width: 50%;
+    }
+    .ft-menu li{
+        width:100%;
+    }
+    .mover .step .col-xs-4{
+        width: 100%;
+    }
+}
+@media (max-width:280px){
+    .top-section-right-text{
+        float: none;
+    }
+    .slide-desc .section-main-title{
+        display: none;
+    }
+    .slide-desc .btn-more, .slide-desc .btn-bordered{
+        display: none;
+    }
+    .home-slider-nav{
+        top:10%;
+    }
+}
