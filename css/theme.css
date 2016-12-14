@@ -853,8 +853,7 @@ body.btn-rounded .btn {
 .btn:visited {
   color: #47b475;
 }
-.btn-white:visited,
-.btn:visited:hover {
+.btn-white:visited {
   color: #fff;
 }
 .btn-white:visited:hover {
@@ -5745,8 +5744,3 @@ footer.bg-dark a {
     padding-bottom: 240px !important;
   }
 }
-
-
-
-
-
