@@ -51,17 +51,29 @@ p{
 .nomarg{
     margin: 0;
 }
+.pad-5{
+  padding:0 5px;
+}
 .pad-10{
     padding: 0 10px;
 }
-.marg-10{
-    margin: 0 -10px;
+.pad-15{
+    padding: 0 15px;
+}
+.pad-20{
+    padding: 0 20px;
 }
 .marg-5{
-    margin: 0 -5px;
+  margin: 0 5px;
 }
-pad-5{
-    padding:0 5px;
+.marg-10{
+  margin: 0 10px;
+}
+.marg-15{
+  margin: 0 15px;
+}
+.marg-20{
+    margin: 0 20px;
 }
 .section-main-title{
     color: #333333;
@@ -107,7 +119,7 @@ pad-5{
     position: fixed;
     width: 100%;
     background: rgba(255,255,255, .9);
-    
+
 }
 /*-------------------------------------------------------------------------------------------------
  - slick
@@ -290,7 +302,7 @@ pad-5{
     min-width: 250px;
     background: #9f8447;
     display: none;
-    
+
 }
 .submenu li{
     float: none;
@@ -430,7 +442,7 @@ pad-5{
 ---------------------------------------------------------------------------------------------------*/
 #about-section{}
 .about-inner{
-    padding: 145px 0 135px;
+    padding: 145px 0 50px;
 }
 .excerpt{
     position: relative;
@@ -465,7 +477,7 @@ pad-5{
 }
 h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h2.bookme, .h3.bookme, .h4.bookme, .h5.bookme, .h6.bookme{
     font-family: 'Montserrat', serif;
-    font-weight: 700; 
+    font-weight: 700;
     color: #333333;
     text-transform: uppercase;
     margin:0 0 30px;
@@ -577,7 +589,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     -webkit-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
-    
+
 }
 .panel-group .panel-body {
     padding: 20px 45px;
@@ -608,7 +620,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
  - Team
 ---------------------------------------------------------------------------------------------------*/
 .team-section{
-    
+
 }
 .team-inner{
     padding: 110px 0 0;
@@ -699,7 +711,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 .services-item{
     background: #333333;
     text-align: center;
-    
+
 }
 .services-item .services-ct{
     padding-top: 125px;
@@ -753,7 +765,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     margin:0 auto;
     max-width: 390px;
     font-family: 'Playfair Display', serif;
-    
+
 }
 .services-item:first-child .services-excerpt p{
     color: #e7d3a5;
@@ -816,7 +828,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     color: #333;
 }
 .rel-serv ul li a:hover{
-    
+
     color: #9f8447;
 }
 .rel-serv ul li:before{
@@ -853,7 +865,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
  - Blog
 ---------------------------------------------------------------------------------------------------*/
 #home-blog-section{
-    
+
 }
 .home-blog-ct{
     margin-bottom: 30px;
@@ -875,7 +887,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .home-blog-title h5 a{
     color: #333333;
-    
+
 }
 .meta-date{
     font-weight: 400;
@@ -1008,7 +1020,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .testimonial-nav{
     float: right;
-    
+
 }
 .testimonial-nav button{
     background: none;
@@ -1064,7 +1076,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     font-family: 'Lora', sans-serif;
     font-style: italic;
     line-height: 30px;
-    
+
 }
 .testimonial-name{
     color: #fff;
@@ -1116,7 +1128,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     font-size: 18px;
     color: #fff;
     line-height: 18px;
-   
+
 }
 .interest .section-main-title a span{
     margin-left: 15px;
@@ -1172,7 +1184,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-    height: 40px; 
+    height: 40px;
 }
 .form-request select.form-control{
     color: #40351d;
@@ -1181,13 +1193,13 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
    color: #40351d;
 }
 .form-request .form-control:-moz-placeholder { /* Firefox 18- */
-   color: #40351d;  
+   color: #40351d;
 }
 .form-request .form-control::-moz-placeholder {  /* Firefox 19+ */
-   color: #40351d;  
+   color: #40351d;
 }
-.form-request .form-control:-ms-input-placeholder {  
-   color: #40351d;  
+.form-request .form-control:-ms-input-placeholder {
+   color: #40351d;
 }
 .form-request .btn-submit{
     margin-top: 15px;
@@ -1227,7 +1239,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 .afterbout-item i{
     color: #3b3b3b;
     font-size: 60px;
-    
+
 }
 .afterbout-item h4{
     font-size: 16px;
@@ -1235,7 +1247,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     color: #333;
     font-family: 'Montserrat', serif;
     margin:35px 0 25px;
-    
+
 }
 .afterbout-item p{
     margin-bottom: 70px;
@@ -1339,14 +1351,14 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     text-decoration: none;
     border-radius: 50%;
     margin-bottom: 25px;
-    
+
 }
 /*-------------------------------------------------------------------------------------------------
  - Pricing
 ---------------------------------------------------------------------------------------------------*/
 .pricing-inner{
     padding: 45px 0 100px;
-    
+
 }
 .pricing-big-title{
     font-size: 32px;
@@ -1511,7 +1523,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     font-size: 15px;
     color: #858585;
     font-family: 'Montserrat', serif;
-    
+
 }
 .ft-contact .call a{
     color: #333;
@@ -1705,7 +1717,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .attorney .testimonial-wrap, .attorney .testimonial-wrap:before{
     background: none;
-    
+
 }
 .attorney #client-section .btn-bordered{
     border-color:  #e72759;
@@ -1846,8 +1858,8 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     content: '';
     left: 0;
     bottom: -20px;
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-left: 0px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 25px solid #fff;
@@ -1868,7 +1880,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     padding-top: 150px;
 }
 .therapy-open{
-    padding-top: 65px;
+    padding-bottom: 65px;
 }
 .opentitle{
     color: #000000;
@@ -1994,7 +2006,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .off-cat{
     background: #fc3c2a;
-    padding:15px 25px;   
+    padding:15px 25px;
     margin-bottom: 25px;
 }
 .off-cat a{
@@ -2526,11 +2538,11 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .corporate .submenu{
     background: #bc4a1d;
-    
+
 }
 .corporate .submenu li{
     border-bottom-color: rgba(255,255,255, .4);
-    
+
 }
 /*----------------------
  - barber
@@ -2806,7 +2818,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 -----------------------*/
 .architec .nav-item li a:hover:after, .architec .nav-item li.active a:after{
     background: #ff9800;
-    
+
 }
 .architec .submenu{
     background: #ff9800;
@@ -2957,7 +2969,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     left:40px;
     top:-43px;
     border-radius: 50%;
-    
+
 }
 .architec #about-section h4{
     font-weight: 700;
@@ -3154,7 +3166,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     width:50%;
     float: left;
     margin-bottom: 30px;
-    
+
 }
 .notfound-ct ul li a:before{
     content: "\f101";
@@ -3248,7 +3260,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
 }
 .porto-detail .porto-title span.porto-cat{
     font-size: 10px;
-    
+
 }
 .porto-detail .portfolio-item p{
     border-bottom: 1px solid #ebebeb;
@@ -3269,8 +3281,8 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     text-transform: uppercase;
     font-family: 'Montserrat', serif;
     margin-bottom: 20px;
-    
-    
+
+
 }
 .porto-detail .portfolio-item .detail .sub-title{
     font-size: 15px;
@@ -3279,14 +3291,14 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     font-family: 'Montserrat', serif;
     margin-bottom: 20px;
     position: relative;
-    
+
 }
 .porto-detail .portfolio-item .detail ul{
     list-style: none;
     color: #858585;
     margin: 10px 0 40px;
     padding: 0;
-    
+
 }
 .porto-detail .portfolio-item .detail ul li{
     color: #858585;
@@ -3358,7 +3370,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     display: inline-block;
 }
 #portfolio-section2 .porto-title span.porto-cat{
-    
+
 }
 .number{
     border: 2px solid #333;
@@ -3390,7 +3402,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     margin-bottom: 20px;
     text-align: center;
     position: relative;
-    
+
 }
 .blogpage-small-title{
     font-size: 15px;
@@ -3471,7 +3483,7 @@ blockquote:before{
     padding: 0 10px;
     position: relative;
     z-index: 3;
-    
+
 }
 .blog-slider-nav{
     display: inline-block;
@@ -3602,7 +3614,7 @@ blockquote:before{
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
     display: inline-block;
-    
+
 }
 .archive .form-group:after{
     position: absolute;
@@ -3714,7 +3726,7 @@ blockquote:before{
     box-shadow: none;
     height: 45px;
     border-radius: 0;
-    
+
 }
 .comment-form textarea, .comment-form textarea:focus{
     outline: none;
@@ -3722,7 +3734,7 @@ blockquote:before{
     box-shadow: none;
     height: 215px;
     border-radius: 0;
-    
+
 }
 /*-------------------------------------------------------------------------------------------------
  - Gallery
@@ -3826,7 +3838,7 @@ blockquote:before{
     font-weight: 700;
     margin-bottom: 20px;
     font-size: 21px;
-    
+
 }
 .contact-detail .detail{
     font-size: 16px;
@@ -3855,4 +3867,16 @@ blockquote:before{
     float:left;
     font-size: 24px;
     margin-right: 10px;
+}
+
+.booking-widget .top-tab {
+  background-color: #666A73;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Montserrat', serif;
+  padding: 5px 0 0 5px;
+}
+
+html, body {
+   overflow-x: hidden;
 }
