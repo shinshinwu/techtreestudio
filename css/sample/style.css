@@ -946,7 +946,7 @@ h1.bookme, h2.bookme, h3.bookme, h4.bookme, h5.bookme, h6.bookme, .h1.bookme, .h
     background-size: cover;
 }
 .fact-inner{
-    padding: 125px 0 160px;
+    padding: 125px 0 20px;
 }
 #fact-section .excerpt p{
     max-width: 810px;
